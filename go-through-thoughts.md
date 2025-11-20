@@ -1,0 +1,2 @@
+- `State` can be `BaseModel`, `dataclass` and `TypedDict`. But `BaseModel` is less performant than other ones. It's written in the [official documentation](https://docs.langchain.com/oss/python/langgraph/graph-api#state). We will mostly find examples mentioned using `TypedDict` and it's widely used.
+- We can return only the `State` that is being passed to the `Node` while defintion. We can update the `State` in the method. We can return the exact `State` mimic using mannual dictionary creation if we want. But other than that, we can't return any other data type or values.
