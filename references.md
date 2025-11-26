@@ -1,0 +1,2 @@
+- 
+- [langchain-qdrant](https://reference.langchain.com/python/integrations/langchain_qdrant/#langchain_qdrant.QdrantVectorStore)

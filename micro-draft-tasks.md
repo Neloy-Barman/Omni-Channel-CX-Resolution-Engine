@@ -1,0 +1,23 @@
+- Initial
+  - Create virtual environment.
+  - Install required packages.
+  - A simple State
+  - One Node
+  - Build Graph
+  - Invoke it using a user query
+  - Return Response from the graph.
+  - All should be within one file named `main.py`.
+- Next
+  - Generate a response schema named TriageSchema for structured response.
+  - create a separate node named triageNode.
+  - Initialize a LLM from Groq.
+  - Generate a working system prompt.
+  - Call LLM within it.
+  - View the response.
+- RAG
+  - Take a random pdf file.
+  - Load, split and create document chunks.
+  - Pull and run QDrant RAG DB using Docker.
+  - Generate Embeddings of the chunks and add it to the Vector DB.
+  - Perform similarity search with a query and view results.
+  - Use the steps performed and implement a Retrieval Node in the Graph.

@@ -1,4 +1,11 @@
 langchain
 langgraph
 python-dotenv
+opencv-python
+pymupdf-layout
 langchain-groq
+langchain-qdrant
+langchain-community
+langchain-pymupdf4llm
+langchain-huggingface
+sentence-transformers
